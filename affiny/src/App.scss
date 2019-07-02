@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.words-container {
+  display: flex;
+  .word-list {
+    width: 50%;
+    border:1px solid #ccc;
+    margin-top: 20px;
+    box-sizing: border-box;
+    .words {
+      border-bottom: 1px solid #ccc;
+      padding: 10px;
+    }
+    .words.active {
+      background-color: #ccc;
+    }
+  }
+  .word-details {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    width: 50%;
+    box-sizing: border-box;
+    .word-definition {
+      border-bottom: 1px solid #ccc;
+      padding: 10px;
+    }
+    .word-example {
+      border-bottom: 1px solid #ccc;
+      padding: 10px;
+    }
+    .button-container {
+      text-align: center;
+      button {
+        width: 100px;
+        padding: 10px;
+        margin: 20px auto;
+        background-color: #f5f5f5;
+        border-radius: 5px;
+      }
+    }
+  }
+}
